@@ -6,7 +6,7 @@ To install the package, first clone or download the repository to your computer.
 ```bash
 git clone git@github.com:UTNuclearRobotics/limits_of_detection.git
 ```
-Then navigate into the reo and create a /build folder. From this folder we can invoke cmake to compile the library.
+Then navigate into the repo and create a `/build` folder. From this folder we can invoke `cmake` to compile the library.
 ```bash
 cd limits_of_detection
 mkdir build && cd build
@@ -17,7 +17,7 @@ Now that the library is compiled, you can test the example program
 ./limits_of_detection
 ```
 
-If you want to install the library so it can easiliy be used with other cmake or catkin/colcon projects, run the following command under the /build directory
+If you want to install the library so it can easiliy be used with other cmake or catkin/colcon projects, run the following command under the `/build` directory
 ```bash
 sudo make install
 ```
