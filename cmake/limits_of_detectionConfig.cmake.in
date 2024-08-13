@@ -1,0 +1,7 @@
+get_filename_component(_dir "${CMAKE_CURRENT_LIST_FILE}" PATH)
+get_filename_component(_prefix "${_dir}/../../.." ABSOLUTE)
+
+include("${_dir}/limits_of_detectionTargets.cmake")
+
+set(limits_of_detection_INCLUDE_DIRS ${_prefix}/include/limits_of_detection)
+set(limits_of_detection_LIBRARIES limits_of_detection)
