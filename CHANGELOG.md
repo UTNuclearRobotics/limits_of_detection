@@ -1,17 +1,16 @@
 -------------------------------------------------------------------------------------
-<package_name> ChangeLog (see changes/detailed-diffs/ for specific changes)
+<limits_of_detection> ChangeLog (see changes/detailed-diffs/ for specific changes)
 -------------------------------------------------------------------------------------
 
 Release Summary:
 
-0.0, February 14, 2021: 
-     Creation.
+1.0, August 13, 2023: 
+     Creation of library. Includes an example program. Functions are documented with doxygen.
 
-Details of each release follow, from most recent to oldest.
 
 ------------------------------------------------------------------------------------
 
-Release 0.0: February 14, 2021
+Release 0.0: August 13, 2024
 
 Creation.
 
