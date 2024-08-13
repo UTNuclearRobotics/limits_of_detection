@@ -26,6 +26,7 @@ float calculateActivityLLD(float detector_surface_area, float LLD);
  * @brief Calculates the Dwell Time.
  *
  * Calculates the minimum dwell time for a detector to appropriately assess whether the surface is contaminated. This time satisfies the relative std requirement.
+ * 
  * @param[in] activityLLD [float] Activity level that is deemed as a detection using a detector with a specified size. Units: (DPS)
  * @param[in] efficiency [float] The detector's detection efficiency. Range: (0-1).
  * @param[in] relative_std [float] The relative standard deviation, user-defined. Range: (0-1).  Values closer to 0 represent a precise measurement while values closer to 1 represent an imprecise measurement.
@@ -34,8 +35,6 @@ float calculateActivityLLD(float detector_surface_area, float LLD);
  * 
  * @throws std::invalid_argument: The 'efficiency' parameter has to be within the range of (0-1)
  * 
- * @note TODO:Additional notes or remarks about the function.
- * @warning TODO:Any warnings or important considerations.
  */
 float calculateDwellTime(float activityLLD, float efficiency, float relative_std);
 

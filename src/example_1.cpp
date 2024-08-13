@@ -1,8 +1,8 @@
 #include <iostream>
 #include "limits_of_detection.hpp"
 
-// Example Program for calculating the limits of detection.  This script assumes it is using the ludlum air proportional detector
-// that is currently on Magni.  LLD is LANL's LLD.  rsd, alpha, and beta, is user specified. Lastly, it is using background radiation
+// Example program for calculating the limits of detection.  This script assumes it is using the ludlum air proportional detector
+// that is currently on Magni.  LLD is LANL specific.  rsd, alpha, and beta, is user specified. Lastly, it is using background radiation
 // data that was recorded for about an hour in the NRG lab.
 
 int main() {
